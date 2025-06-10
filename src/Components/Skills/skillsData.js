@@ -10,7 +10,9 @@ import js from "./../../images/javascript.png";
 import bootstrap from "./../../images/bootstrap.png";
 import cs from "./../../images/cs.png";
 import cpp from "./../../images/C++.png";
-import "./Skills.css";
+import intellij from "./../../images/intellij-idea.png";
+import vscode from "./../../images/vscode.png";
+import eclipse from "./../../images/Eclipse IDE.png";
 
 export const skillsData = [
   {
@@ -31,13 +33,19 @@ export const skillsData = [
     proficiency: 80,
     category: "Backend",
   },
-  { name: "JPA", logo: jpa, proficiency: 75, category: "Backend" },
+  {
+    name: "JPA",
+    logo: jpa,
+    proficiency: 75,
+    category: "Backend",
+  },
   {
     name: "MySQL",
     logo: mysql,
     proficiency: 88,
     category: "Backend",
   },
+
   {
     name: "ReactJS",
     logo: reactjs,
@@ -68,6 +76,36 @@ export const skillsData = [
     proficiency: 90,
     category: "Frontend",
   },
-  { name: "C#", logo: cs, proficiency: 70, category: "Tools" },
-  { name: "C++", logo: cpp, proficiency: 65, category: "Tools" },
+
+  {
+    name: "C#",
+    logo: cs,
+    proficiency: 70,
+    category: "None",
+  },
+  {
+    name: "C++",
+    logo: cpp,
+    proficiency: 65,
+    category: "None",
+  },
+
+  {
+    name: "IntelliJ IDEA",
+    logo: intellij,
+    proficiency: 85,
+    category: "Tools",
+  },
+  {
+    name: "VS Code",
+    logo: vscode,
+    proficiency: 90,
+    category: "Tools",
+  },
+  {
+    name: "Eclipse",
+    logo: eclipse,
+    proficiency: 80,
+    category: "Tools",
+  },
 ];
