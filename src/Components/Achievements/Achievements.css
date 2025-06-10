@@ -1,0 +1,49 @@
+.achievements-section {
+  padding: 60px 20px;
+  background: transparent;
+  text-align: center;
+  color: #fff;
+}
+
+.achievements-heading {
+  font-size: clamp(2rem, 6vw, 3rem); 
+  font-weight: 900;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.certificates-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
+.certificate-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  padding: 16px;
+  width: 260px;
+  box-shadow: 0 0 18px rgba(0, 255, 128, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  backdrop-filter: blur(5px);
+}
+
+.certificate-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 25px rgba(0, 255, 128, 0.3);
+}
+
+.certificate-img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  object-fit: contain;
+}
+
+.certificate-title {
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ccc;
+}

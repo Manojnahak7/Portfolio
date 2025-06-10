@@ -1,0 +1,145 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  background: rgb(0, 4, 20);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  z-index: 999;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.resume-desktop a {
+  background: #3498db;
+  padding: 8px 16px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.resume-mobile {
+  display: none;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+.nav-toggle-label {
+  display: none;
+  width: 30px;
+  height: 24px;
+  position: relative;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.nav-toggle-label .bar {
+  background: white;
+  height: 3px;
+  width: 100%;
+  position: absolute;
+  transition: all 0.3s ease;
+}
+
+.nav-toggle-label .top { top: 0; }
+.nav-toggle-label .middle { top: 10px; }
+.nav-toggle-label .bottom { top: 20px; }
+
+.nav-toggle:checked + .nav-toggle-label .top {
+  transform: rotate(45deg);
+  top: 10px;
+}
+
+.nav-toggle:checked + .nav-toggle-label .middle {
+  opacity: 0;
+}
+
+.nav-toggle:checked + .nav-toggle-label .bottom {
+  transform: rotate(-45deg);
+  top: 10px;
+}
+
+@media (max-width: 768px) {
+  nav {
+    position: absolute;
+    top: 60px;
+    left: 0;
+      background: rgb(0, 4, 20);
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+  }
+
+  .nav-toggle:checked ~ nav {
+    display: flex;
+  }
+
+  nav ul {
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 0;
+    gap: 10px;
+  }
+
+  .nav-toggle-label {
+    display: block;
+  }
+
+  .resume-desktop {
+    display: none;
+  }
+
+  .resume-mobile {
+    display: block;
+  }
+
+  .resume-mobile a {
+    
+    text-decoration: none;
+  }
+}
+
+.main-content {
+  padding: 20px;
+  text-align: center;
+}
+
+
+.logo-image {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+}
