@@ -17,8 +17,8 @@ export const Hero = () => {
             strings: [
               "Full Stack Developer",
               "Web Developer",
-              "120+ Leetcode Problems Solved",
-              "80+ GFG Problems Solved",
+              "160+ Leetcode Problems Solved",
+              "120+ GFG Problems Solved",
               "Java Developer",
             ],
             autoStart: true,
