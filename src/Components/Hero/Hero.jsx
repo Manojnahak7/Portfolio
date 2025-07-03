@@ -15,8 +15,9 @@ export const Hero = () => {
         <Typewriter
           options={{
             strings: [
+"SDE Intern @Talvoy Partners",
               "Full Stack Developer",
-              "Web Developer",
+               "Web Developer",
               "160+ Leetcode Problems Solved",
               "120+ GFG Problems Solved",
               "Java Developer",
