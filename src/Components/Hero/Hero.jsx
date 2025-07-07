@@ -16,6 +16,7 @@ export const Hero = () => {
           options={{
             strings: [
 "SDE Intern @Talvoy Partners",
+"Former Web Development Intern @Cognifyz Technologies"
               "Full Stack Developer",
                "Web Developer",
               "160+ Leetcode Problems Solved",
