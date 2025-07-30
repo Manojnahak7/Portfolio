@@ -19,7 +19,7 @@ export const Hero = () => {
 "Former Web Development Intern @Cognifyz Technologies",
               "Full Stack Developer",
                "Web Developer",
-              "160+ Leetcode Problems Solved",
+              "200+ Leetcode Problems Solved",
               "120+ GFG Problems Solved",
               "Java Developer",
             ],
