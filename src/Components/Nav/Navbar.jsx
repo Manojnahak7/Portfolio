@@ -48,7 +48,7 @@ export const Navbar = () => {
       </nav>
 
       <div className="resume-desktop">
-        <a href="/resume.pdf" download>
+        <a href="https://manojnahak-resume.tiiny.site">
           Resume
         </a>
       </div>
