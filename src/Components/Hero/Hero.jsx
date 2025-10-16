@@ -15,11 +15,12 @@ export const Hero = () => {
         <Typewriter
           options={{
             strings: [
-"SDE Intern @Talvoy Partners",
+              "Java Developer @TalVoy Partners",
+"Former SDE Intern @Talvoy Partners",
 "Former Web Development Intern @Cognifyz Technologies",
               "Full Stack Developer",
                "Web Developer",
-              "200+ Leetcode Problems Solved",
+              "230+ Leetcode Problems Solved",
               "120+ GFG Problems Solved",
               "Java Developer",
             ],
