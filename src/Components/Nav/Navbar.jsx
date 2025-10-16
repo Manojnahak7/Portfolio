@@ -39,9 +39,10 @@ export const Navbar = () => {
           </li>
 
           <li className="resume-mobile">
-            <a href="/resume.pdf" download>
+            {/* <a href="/resume.pdf" download>
               Resume
-            </a>
+            </a>*/}
+            <a href="https://manojnahak-resume.tiiny.site>Resume</a>
           </li>
         </ul>
       </nav>
