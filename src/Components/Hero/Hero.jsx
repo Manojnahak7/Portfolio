@@ -21,7 +21,7 @@ export const Hero = () => {
               "Full Stack Developer",
                "Web Developer",
               "230+ Leetcode Problems Solved",
-              "120+ GFG Problems Solved",
+              "150+ GFG Problems Solved",
               "Java Developer",
             ],
             autoStart: true,
