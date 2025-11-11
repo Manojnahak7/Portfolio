@@ -42,7 +42,7 @@ export const Navbar = () => {
             {/* <a href="/resume.pdf" download>
               Resume
             </a>*/}
-            <a href="https://manojnahak-resume.tiiny.site>Resume</a>
+            <a href="https://manojnahak-resume.tiiny.site">Resume</a>
           </li>
         </ul>
       </nav>
