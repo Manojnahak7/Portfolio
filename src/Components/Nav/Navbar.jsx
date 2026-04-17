@@ -42,11 +42,7 @@ export const Navbar = () => {
         </ul>
       </nav>
 
-      <div className="resume-desktop">
-        <a href="https://manojnahak-resume.tiiny.site">
-          Resume
-        </a>
-      </div>
+     
     </header>
   );
 };
